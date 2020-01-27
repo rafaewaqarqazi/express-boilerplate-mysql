@@ -1,0 +1,31 @@
+{
+  "name": "express-boilerplate-mysql",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rafaewaqarqazi/express-boilerplate-mysql.git"
+  },
+  "author": "Rafae Waqar Qazi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rafaewaqarqazi/express-boilerplate-mysql/issues"
+  },
+  "homepage": "https://github.com/rafaewaqarqazi/express-boilerplate-mysql#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "express-jwt": "^5.3.1",
+    "jsonwebtoken": "^8.5.1",
+    "morgan": "^1.9.1",
+    "mysql2": "^2.1.0",
+    "nodemon": "^2.0.2",
+    "sequelize": "^5.21.3",
+    "uuid": "^3.4.0"
+  }
+}
